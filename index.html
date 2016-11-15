@@ -1,0 +1,14 @@
+---
+  layout: default
+---
+
+<article class="period">
+  <h2 class="period__title">2016</h2>
+  <ul class="period__list">
+    {% for post in site.posts %}
+      <li class="period__item">
+        <a class="period__link" href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

@@ -1,0 +1,5 @@
+encoding: utf-8
+
+exclude: ['node_modules', 'gulpfile.js', 'package.json']
+
+name: i wrote css with your mother last summer
