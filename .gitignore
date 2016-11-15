@@ -3,3 +3,4 @@ _site
 src
 package.json
 gulpfile.js
+.idea
