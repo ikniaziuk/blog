@@ -1,9 +1,12 @@
 ---
-  layout: default
+layout: default
+id: main
 ---
 
 <article class="period">
-  <h2 class="period__title">2016</h2>
+  {% if site.posts %}
+    <h2 class="period__title">2016</h2>
+  {% endif %}
   <ul class="period__list">
     {% for post in site.posts %}
       <li class="preview">
