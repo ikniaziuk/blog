@@ -5,6 +5,3 @@ exclude: ['node_modules', 'gulpfile.js', 'package.json']
 name: I WROTE CSS WITH YOUR MOTHER LAST SUMMER
 
 permalink: /:title/
-
-domain: iwrotecsswithyourmotherlastsummer.com
-url: http://iwrotecsswithyourmotherlastsummer.com/
