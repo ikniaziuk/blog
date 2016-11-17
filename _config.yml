@@ -2,6 +2,9 @@ encoding: utf-8
 
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
 
-name: i wrote css with your mother last summer
+name: I WROTE CSS WITH YOUR MOTHER LAST SUMMER
 
 permalink: /:title/
+
+domain: iwrotecsswithyourmotherlastsummer.com
+url: http://iwrotecsswithyourmotherlastsummer.com/
