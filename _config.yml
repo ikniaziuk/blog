@@ -1,7 +1,16 @@
 encoding: utf-8
 
-exclude: ['node_modules', 'gulpfile.js', 'package.json']
-
 name: I WROTE CSS WITH YOUR MOTHER LAST SUMMER
 
 permalink: /:title/
+
+markdown: kramdown
+
+exclude: [
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - README.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
