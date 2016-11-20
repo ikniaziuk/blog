@@ -4,15 +4,27 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Это просто блог о Css" />
-  <meta name="keywords" content="блог о html, css, js" />
+  <meta name="description" content="{{ page.description }}" />
+  <meta name="keywords" content="Блог о русском рэпе и немного Css" />
   <meta name="author" content="qleap" />
-  <meta name="HandheldFriendly" content="true"/>
-  <meta content="on" http-equiv="cleartype"/>
-  <meta content="no" http-equiv="imagetoolbar"/>
-  <meta content="no" http-equiv="msthemecompatible"/>
-  <meta content="#ffe000" name="theme-color"/>
-  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta name="HandheldFriendly" content="true" />
+  <meta content="on" http-equiv="cleartype" />
+  <meta content="no" http-equiv="imagetoolbar" />
+  <meta content="no" http-equiv="msthemecompatible" />
+  <meta content="#ffe000" name="theme-color" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="I wrote css with your mother last summer" />
+  <meta name="twitter:title" content="I wrote css with your mother last summer" />
+  <meta name="twitter:description" content="Блог о русском рэпе и немного Сss" />
+  <!--<meta name="twitter:image:src" content="http://website.com/image250X250.png" />-->
+  <meta name="twitter:domain" content="http://iwrotecsswithyourmotherlastsummer.ru/" />
+  <meta property="og:site_name" content="I wrote css with your mother last summer" />
+  <meta property="og:type" content="blog"/>
+  <meta property="og:url" content="http://iwrotecsswithyourmotherlastsummer.ru/"/>
+  <meta property="og:title" content="Название страницы"/>
+  <meta property="og:description" content="Блог о русском рэпе и немного Css"/>
+  <!--<meta property="og:image" content="https://website.com/image250X250.png"/>-->
   <link rel="stylesheet" href="/assets/styles/styles.css" />
 </head>
 <body id="{{ page.id }}">
@@ -22,4 +34,34 @@
       {{ content }}
     </div>
   </main>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter41011349 = new Ya.Metrika({
+            id:41011349,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+          });
+        } catch(e) { }
+      });
+
+      var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/41011349" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
 </body>

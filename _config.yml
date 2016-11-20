@@ -6,7 +6,7 @@ permalink: /:title/
 
 markdown: kramdown
 
-exclude: [
+exclude:
   - node_modules
   - gulpfile.js
   - package.json
