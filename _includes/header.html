@@ -6,12 +6,15 @@
         <figure class="quote">
           <div class="quote__col">
             <div class="quote__img-container">
-              <img class="quote__img" src="/assets/images/persons/js.png" alt="Джейсон Стэтхем"/>
+              <img class="quote__img"
+                   src="{% if page.quoteImg %}{{ page.quoteImg }}{% else %}{{ site.data.quote.quoteImg }}{% endif %}"
+                   alt="{% if page.quotePerson %}{{ page.quotePerson }}{% else %}{{ site.data.quote.quotePerson }}{% endif %}"
+              />
             </div>
           </div>
           <div class="quote__col">
-            <blockquote class="quote__text">Я всегда мечтал писать CSS</blockquote>
-            <cite class="quote__cite">&copy; Джейсон Стэтхэм</cite  >
+            <blockquote class="quote__text">{% if page.quoteText %}{{ page.quoteText }}{% else %}{{ site.data.quote.quoteText }}{% endif %}</blockquote>
+            <cite class="quote__cite">&copy; {% if page.quotePerson %}{{ page.quotePerson }}{% else %}{{ site.data.quote.quotePerson }}{% endif %}</cite>
           </div>
         </figure>
       </div>

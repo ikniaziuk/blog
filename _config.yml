@@ -6,6 +6,11 @@ permalink: /:title/
 
 markdown: kramdown
 
+domain: iwrotecsswithyourmotherlastsummer.ru
+url: http://iwrotecsswithyourmotherlastsummer.ru/
+title: I WROTE CSS WITH YOUR MOTHER LAST SUMMER
+description: Сборник кустарных CSS, HTML, JS рецептов для приготовлния твоего персонального коктейля.
+
 exclude:
   - node_modules
   - gulpfile.js
