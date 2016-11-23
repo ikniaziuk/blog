@@ -3,6 +3,10 @@ layout: post
 title: 'Атрибуты srcset и&nbsp;size'
 discription: Использование атрибутов srcset и size или "как сэкономить трафик и нервы пользователям" 
 pageId: article
+links:
+- url: http://w3c.github.io/html/semantics-embedded-content.html
+- url: https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/
+- url: https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/ 
 ---
 
 Короткая статья об атрибуте `srcset`, который позволяет нам отдавать изображения в зависимости 
