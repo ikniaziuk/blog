@@ -27,8 +27,7 @@ Pockedex на чистом <b>Css</b> без <b>Html</b>.
 </figure>
 
 
-Также, если задавать <b>радиальным-градиентам</b> резкие цветовые переходы, рваные края можно 
-заметить невооружённым взглядом. Эту проблему можно решить делая небольшой цветовой переход (
+Также, если усердно задавать <b>радиальным-градиентам</b> резкие цветовые переходы, то можно увидеть рваные края (хотя тут есть оговорочка: скорее всего, мы не увидим данного артефакта на наших мобильных друзьях или иных устройствах с &laquo;повышенным содержанием пикселей в экране&raquo;, там всё хорошо). Эту проблему можно решить делая небольшой цветовой переход (
 тут главное не переборщить&nbsp;&mdash; контуры будут выглядеть замыленно).
 
 <p data-height="300" data-theme-id="light" data-slug-hash="eBRXjE" data-default-tab="result" data-user="qleap" data-embed-version="2" data-pen-title="eBRXjE" class="codepen">See the Pen <a href="http://codepen.io/qleap/pen/eBRXjE/">eBRXjE</a> by qleap (<a href="http://codepen.io/qleap">@qleap</a>) on <a href="http://codepen.io">CodePen</a>.</p>
