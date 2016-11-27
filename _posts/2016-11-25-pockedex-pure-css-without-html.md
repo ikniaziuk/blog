@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Я сделаль'
+title: Pockedex с помощью градиентов
 discription:  Pockedex на чистом Css без Html 
 pageId: article
 ---
@@ -21,10 +21,6 @@ Pockedex на чистом <b>Css</b> без <b>Html</b>.
   background: radial-gradient(10em at right 10em bottom 10em, white 50%, blue);
 }
 {% endhighlight %}
-
-<figure class="post__img-container">
-	<img class="post__img" src="/assets/images/butwhy.jpg" alt="Мем But why токсидермистский" /> 
-</figure>
 
 
 Также, если усердно задавать <b>радиальным-градиентам</b> резкие цветовые переходы, то можно увидеть рваные края (хотя тут есть оговорочка: скорее всего, мы не увидим данного артефакта на наших мобильных друзьях или иных устройствах с &laquo;повышенным содержанием пикселей в экране&raquo;, там всё хорошо). Эту проблему можно решить делая небольшой цветовой переход (
