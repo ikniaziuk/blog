@@ -1,8 +1,4 @@
 node_modules
 _site
 src
-package.json
-gulpfile.js
 .idea/
-Gemfile
-Gemfile.lock
