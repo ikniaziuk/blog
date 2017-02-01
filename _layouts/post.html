@@ -13,4 +13,8 @@ layout: default
   </header>
 
   {{ content }}
+
+  {% if page.links %}
+    {% include useful-links.html %}
+  {% endif %}
 </article>

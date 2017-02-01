@@ -1,0 +1,10 @@
+<section class="useful-links">
+  <h2 class="useful-links__title">{{ site.data.links.title }}</h2>
+  <ul class="links">
+    {% for link in page.links %}
+      <li class="links__item">
+        <a class="links__link" href="{{ link.url }}" target="_blank">{{ link.url }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

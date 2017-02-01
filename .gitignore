@@ -4,5 +4,4 @@ src
 package.json
 gulpfile.js
 .idea/
-Gemfile
-Gemfile.lock
+
