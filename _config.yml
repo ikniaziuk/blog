@@ -7,6 +7,7 @@ permalink: /:title/
 markdown: kramdown
 
 baseurl: /blog
+url: ikniaziuk.github.io
 title: I WROTE CSS WITH YOUR MOTHER LAST SUMMER
 description: Сборник кустарных CSS, HTML, JS рецептов для приготовлния твоего персонального коктейля.
 
